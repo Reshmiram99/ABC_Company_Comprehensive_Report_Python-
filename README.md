@@ -1,4 +1,4 @@
-# Python Data Analysis Project – ABC Company Employee Dataset
+# Python Data Analysis Project – ABC Company Dataset
 
 ## Data Story: Insights from ABC Company Employee Analysis
 
