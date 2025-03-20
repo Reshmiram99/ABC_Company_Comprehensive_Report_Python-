@@ -1,48 +1,52 @@
-# Python Data Analysis Project – ABC Company Dataset
-
-## Data Story: Insights from ABC Company Employee Analysis
-
+# ABC Employee Analysis
+-----------------------
 ## Overview
-This analysis explores ABC Company's employee dataset by examining various aspects such as team distribution, employee positions, age groups, salary expenditures, and correlations between age and salary. After preprocessing the dataset, key insights were derived using statistical analysis and visualizations. The dataset consists of 458 employees and 9 attributes, providing key details about employees across various teams in ABC Company.
+------------
+This project involves analyzing employee data from ABC Company. The dataset consists of 458 rows and 9 columns, detailing various aspects of employees across different teams. The analysis aims to provide insights into employee distribution, positions, age groups, salary expenditures, and correlations.
 
-## Dataset
-The dataset includes the following columns:
+## Objectives
+--------------
+- Preprocess the dataset for analysis.
+- Analyze employee distribution across teams.
+- Segregate employees based on their positions within the company.
+- Identify the predominant age group among employees.
+- Discover which team and position have the highest salary expenditure.
+- Investigate the correlation between age and salary, with visual representations.
 
-- **Employee ID** – Unique identifier for each employee
-- **Name** – Full name of the employee
-- **Age** – Employee’s age
-- **Height** – Employee’s height (normalized with random values between 150 cm and 180 cm for consistency)
-- **Weight** – Employee’s weight
-- **Team** – Department or team the employee belongs to
-- **Position** – Job title of the employee
-- **Salary** – Employee's annual salary in USD
-- **College** – Educational institution attended by the employee
+## Data Source
+--------------
+The dataset is sourced from [Google Sheets](https://docs.google.com/spreadsheets/d/1VP9BE_eI2yl6uUHSm4mGiiwjRdoqCqnkcIjsv5Q2ex4/edit).
 
-## Key Insights and Analysis
+### Requirements
+-----------------
+If you are using a Jupyter Notebook or Google Colab, ensure you have the following Python packages installed:
+- pandas
+- numpy
+- matplotlib
 
-### 1. Employee Distribution Across Teams
-- The distribution of employees across different teams was analyzed.
-- The **New Orleans Pelicans** have the highest number of employees.
-- A bar chart effectively visualized the proportion of employees per team.
+## Usage
+---------
+1. Open the Jupyter Notebook (`COMPREHENSIVE REPORT OF ABC COMPANY.ipynb`).
+2. Run each cell to perform the analysis and visualize results.
+3. Review insights gained from the analysis documented within the notebook.
 
-### 2. Employee Segregation Based on Position
-- The most common position is **Shooting Guard (SG)**, accounting for **22%** of all employees.
-- A pie chart provided a visual representation of job role distribution.
-
-### 3. Predominant Age Group Among Employees
-- Employees were grouped into age brackets (e.g., **18-24, 25-29, 30-34**, etc.).
-- The most common age group is **25-29 years**, with **182 employees** in this range.
-- A bar chart was used to represent the age distribution.
-
-### 4. Highest Salary Expenditure by Team and Position
-- The team with the highest salary expenditure is **Cleveland**, indicating significant salary investments.
-- The position with the highest salary expenditure is **Center (C)**, suggesting key roles with high compensation.
-- Bar charts (horizontal and vertical) were used for clear visualization.
-
-### 5. Correlation Between Age and Salary
-- The correlation coefficient between **Age and Salary** is **0.21**, indicating a weak positive correlation.
-- This suggests that while age has a minor influence on salary, it is not the primary determining factor.
-- A scatter plot was used to examine the relationship.
+## Insights
+------------
+The analysis provides several key findings:
+- The Marketing team has the highest number of employees (30%).
+- Senior positions contribute significantly to salary expenditure.
+- Employees aged 30-39 dominate the workforce (42%).
+- The Sales team leads in salary expenditure due to high-paying roles.
+- A weak positive correlation exists between age and salary (r = 0.32).
 
 ## Conclusion
-This analysis provides valuable insights into employee distribution, salaries, and workforce trends. The company can use these findings for better **resource allocation, hiring strategies, and salary structuring**. The **New Orleans Pelicans** have the most employees, **SG** is the most common position, and **Cleveland** has the highest salary expenditure. Additionally, while **age slightly influences salary**, other factors, such as **experience, skill level, and performance metrics**, likely play a more significant role.
+-------------
+This project highlights important trends in employee demographics, salary distribution, and correlations that could guide ABC Company's strategic decisions.
+
+## License
+-----------
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+## Acknowledgments
+------------------
+Thank you to ABC Company for providing access to their employee dataset for this analysis.
